@@ -1,0 +1,24 @@
+/* body{
+    max-width: 60vw;
+    background: #f1f3f4;
+} */
+
+body{
+    padding: 50px;
+    max-width: 60vw;
+    margin: 0 auto;
+    background: #f1f3f4;
+
+  }
+  .list-group-item{
+    display: none ;
+  }
+  #filter{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+  }
+  input #filter:focus{
+    border-bottom: 2px solid #007bff;
+    outline: none !important ;
+  }
